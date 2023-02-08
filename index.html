@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>D&C Advogados</title>
+  </head>
+  <body>
+    <div class="caixa-superior">
+      <div class="cabecalho">
+        <h2 class="titulo-cabecalho">D&C Advogados</h2>
+        <a class="link-cabecalho">Home</a>
+        <a class="link-cabecalho" href="#titulo-inferior" >Quem somos</a>
+        <a class="link-cabecalho" href="#titulo-do-meio" >Serviços</a>
+        <a class="link-cabecalho" onclick="chameOAbacate()">contatos -> clique</a>
+      </div>
+
+      <h1>D&C Advogados</h1>
+      <p class="paragrafo-superior">Que a justiça seja feita, e vamos garantir que seja!</p>
+
+      <form id="formulario-contato">
+        <h3 class="titulo-formulario">Entre em contato</h3>
+        <label>
+          Nome
+          <input
+            type="text"
+            name="nome"
+            placeholder="digite seu nome"
+            required
+          />
+        </label>
+        <label>
+          email
+          <input
+            type="email"
+            name="email"
+            placeholder="digite seu email"
+            required
+          />
+        </label>
+        <label>
+          Fale conosco
+          <textarea name="info" placeholder="qual é a sua duvida"></textarea>
+        </label>
+
+        <button>Enviar</button>
+      </form>
+    </div>
+    <h2 id="titulo-do-meio" >Nossos serviços</h2>
+    <div class="caixa-central">
+      <div class="card">
+        <h3 class="titulo-card">Civil</h3>
+        <ul>
+          <li>Primeiro item da lista</li>
+          <li>Segundo item da lista</li>
+          <li>Terceiro item da lista</li>
+          <li>Quarto item da lista</li>
+          <li>Quinto item da lista</li>
+          <li>Sexto item da lista</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="titulo-card">Cuidamos do seu negocio</h3>
+        <ul>
+          <li>Primeiro item da lista</li>
+          <li>Segundo item da lista</li>
+          <li>Terceiro item da lista</li>
+          <li>Quarto item da lista</li>
+          <li>Quinto item da lista</li>
+          <li>Sexto item da lista</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="titulo-card">Cuidamos de você</h3>
+        <ul>
+          <li>Primeiro item da lista</li>
+          <li>Segundo item da lista</li>
+          <li>Terceiro item da lista</li>
+          <li>Quarto item da lista</li>
+          <li>Quinto item da lista</li>
+          <li>Sexto item da lista</li>
+        </ul>
+      </div>
+    </div>
+    <div class="caixa-inferior">
+      <h2 id="titulo-inferior" >Sobre nós</h2>
+      <p class="paragrafo-inferior">
+        Somos um escritório moderno, versátil e dinâmico, cujo objetivo é levar
+        soluções criativas e eficazes aos clientes, tendo como sócios o Dr.
+        Kleber Bissolatti e a Dra. Monique Antonacci, profissionais
+        multidisciplinares com sólida formação e vasta experiência em questões
+        de grande complexidade. Peliciotti Advocacia é um escritório que preza
+        pela qualidade dos serviços jurídicos, com amplo conhecimento e
+        experiência de atuação. Contamos com uma equipe de profissionais
+        experientes para atender nossos clientes de forma personalizada,
+        contemplando as diversas áreas do Direito. Nosso escritório está
+        comprometido em ter os melhores profissionais, advogados, colaboradores
+        e parceiros, empenhados em oferecer seus serviços com grande
+        sensibilidade e comprometimento, com a mais alta competência e
+        comunicação com os clientes. Praticamos a lei com vocação e paixão pela
+        profissão para responder com excelência à confiança depositada em nós
+        pelos nossos clientes.
+      </p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
